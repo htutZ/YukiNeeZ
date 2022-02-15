@@ -18,10 +18,6 @@ const ACTIVITIES: {
     id: "773336526917861400",
     name: "Betrayal.io",
   },
-  youtube: {
-    id: "755600276941176913",
-    name: "YouTube Together",
-  },
   fishing: {
     id: "814288819477020702",
     name: "Fishington.io",
@@ -163,8 +159,9 @@ slash.handle("activity", (d) => {
 
 slash.handle("info", (d) => {
   return d.reply(
-      `• [Join MM V-Tubers Community](<https://discord.gg/sVem3dHwFA>)\n` +
-      `• Made with love by htut`,
+    `• [Invite YukiNee to your server!](<https://discord.com/api/oauth2/authorize?client_id=943196256233201695&permissions=18432&scope=bot%20applications.commands>)\n` +
+      `• [Join MM V-Tubers Community!](<https://discord.gg/sVem3dHwFA>)\n` +
+      `• Made with Love by htut`,
     { ephemeral: true },
   );
 });
